@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <link rel="stylesheet" href="../assets/css/Admission.css">
+</head>
+<body>
+  <!-- Start header -->
+  <header>
+     <!-- nav-bar -->
+     <nav>
+        <div class="logo">
+            <a href=""><img src="/assets/Images/T&T-JUNIOR-SCHOOL-Logo.png" alt="" width="40px"></a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="./Index.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Academics.html">Academics</a></li>
+                <li><a href="./Admission.html">Admissions</a></li>
+                <li><a href="./Contact.html">Contact us</a></li>
+            </ul>
+        </div>
+</nav>
+<!-- end of nav -->
+</header>
+<!-- end of header -->
+ <div class="Hero">
+    <h2>Apply today</h2>
+ </div>
+
+            <!-- Admission form -->
+            <div class="form-container" id="Admission">
+                <h2>Admission Form</h2>
+        <form action="/submit_admission" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="grade">Class Applying For</label>
+            <select id="grade" name="grade" required>
+                <option value="">Select Class</option>
+                <option value="Pre-Primary">Pre-Primary</option>
+                <option value="Primary One">Primary One</option>
+                <option value="Primary Two">Primary Two</option>
+                <option value="Primary Three">Primary Three</option>
+                <option value="Primary Four">Primary Four</option>
+                <option value="Primary Five">Primary Five</option>
+                <option value="Primary Six">Primary Six</option>
+            </select>
+
+            <label for="contact">Parent/Guardian Contact</label>
+            <input type="tel" id="contact" name="contact" required>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+<!-- End of Admission form -->
+
+    <!-- start of the footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="contact-info">
+                <h3>Contact Us to learn more about enrolling </h3>
+                        <p>Email: <a href="mailto:info@tandtjuniorschools.com">info@tandtjuniorschools.com</a></p>
+                        <p>Phone: +256 752 783883 | +256 754 909194</p>
+                        <p>Address: Nakawuka Road, Kasenge, Uganda</p>
+                </div>
+                        <p>&copy; 2024 T and T Junior Schools</p>
+            </div>
+        </footer>
+    <!-- End of the footer -->
+</body>
+</html>
